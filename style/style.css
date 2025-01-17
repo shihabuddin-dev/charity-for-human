@@ -244,14 +244,10 @@ line-height: 24px;
 }
 /* Small Mobile Device  */
 @media screen and (max-width:576px) {
-    .header-title {
-        font-size: 40px;
+    .header{
+        flex-direction: column-reverse;
     }
-
-    .header-caption {
-        padding: 30px 50px;
-    }
-
+    
     .donate, .plan {
         margin: 0 40px;
     }
