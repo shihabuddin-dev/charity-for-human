@@ -85,3 +85,89 @@ font-weight: 400;
 line-height: 28px;
 padding: 20px 0;
 }
+
+/* Donate Today Section Style  */
+.donate {
+    text-align: center;
+} 
+.donate-tk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding: 20px 0 40px 0;
+}
+
+.donate-tk-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 700;
+    width: 135px;
+    height: 123px;
+    border-radius: 5px;
+    background: rgb(250, 250, 250);
+}
+
+.donate-tk-card:hover {
+    color: rgb(255, 89, 89);
+    border: 2px solid red;
+}
+
+.donate input {
+    color: rgb(179, 179, 179);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+
+hr{
+    margin: 0 auto;
+    width: 70%;
+    border: 1px solid rgb(218, 218, 218);
+}
+/* Our Donate Plan Section style */
+
+.plan-text {
+    text-align: center;
+
+}
+
+.plan-card-caption {
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 0;
+}
+.plan-hole-card{
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.plan-card {
+    width: 80%;
+    height: auto;
+    border-radius: 5px;
+    padding: 30px;
+   
+}
+.plan-card img{
+    padding: 20px 0 25px 0;
+}
+.card1{
+    background: rgba(79, 157, 166, 0.1);
+}
+.card2{
+    background: rgba(255, 89, 89, 0.1);
+}
+.card3{
+    background: rgb(255, 244, 214);
+}
